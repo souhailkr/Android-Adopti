@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_right_margin">10dp</dimen>
+    <dimen name="activity_left_margin">10dp</dimen>
+    <dimen name="icon_width">60dip</dimen>
+    <dimen name="icon_height">60dip</dimen>
+    <dimen name="icon_padding">4dp</dimen>
+    <dimen name="card_height">150dip</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <item name="normal_speed" format="float" type="dimen">100</item>
+    <item name="high_speed" format="float" type="dimen">50</item>
+    <item name="low_speed" format="float" type="dimen">120</item>
+
+    <!--profile-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="profile_image">100dp</dimen>
+    <dimen name="fab_profile">30dp</dimen>
+    <dimen name="profile_name">15dp</dimen>
+    <dimen name="profile_about">13dp</dimen>
+    <dimen name="profile_meta">24dp</dimen>
+    <dimen name="profile_meta_label">10dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!--post_item-->
+    <dimen name="intrinsic_padding">8dp</dimen>
+    <dimen name="post_list_item_author_image_side">80dp</dimen>
+    <dimen name="post_list_item_author_image_margin">160dp</dimen>
+
+    <dimen name="post_list_item_image_height">200dp</dimen>
+
+     <!--favourites-->
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="padd_10">10dp</dimen>
+    <dimen name="ic_delete">30dp</dimen>
+    <dimen name="thumbnail">90dp</dimen>
+
+</resources>

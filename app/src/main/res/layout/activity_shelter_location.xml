@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+
+        />
+
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        mapbox:mapbox_cameraZoom="15"
+
+        mapbox:mapbox_styleUrl="@string/mapbox_style_light" >
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:enabled="false"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/mapboxGrayLight"
+            android:text="Start navigation"
+            android:textColor="@color/mapboxWhite"
+            mapbox:layout_constraintLeft_toLeftOf="parent"
+            mapbox:layout_constraintRight_toRightOf="parent"
+            mapbox:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="28dp" />
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+
+</LinearLayout>
+
+
+
+
+
